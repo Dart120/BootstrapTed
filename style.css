@@ -1,0 +1,261 @@
+.bg-black{
+    background-color: black;
+}
+.logo{
+    display: block;
+    max-width:120px;
+    max-height:35px;
+    width: auto;
+    height: auto;
+}
+.white{
+    color: white;
+}
+.nav-item{
+    
+    margin-left: 40px;
+}
+.title{
+    height:33%;
+}
+.blog:hover{
+    color:white;
+    background-color: black;
+}
+body{
+    background-color: white;
+    font-weight: 900 ;
+}
+
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+}
+.container{
+    margin-top:170px;
+}
+.content{
+    margin-top:56.02px;
+}
+
+.nav-item{
+    background-color: rgb(230,43,30);
+    border-radius: 5px ;
+    width:90px;
+  
+    border-color: white;
+    border-width: 1000px;
+
+    
+}
+.photocard{
+    display: inline-block;
+}
+/*.carousel-caption {
+    position: absolute;
+    top: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}*/
+.jumbotron{
+    border-radius: 0px;
+    margin: 50px;
+}
+.personal-icon{
+    padding: 30px ;
+}
+.about{
+    margin-top: 150px;
+}
+.quote{
+    text-align: center;
+}
+.tagline{
+    height:650px;
+    weight:100%;
+}
+.left{
+
+    border-left: rgb(230,43,30) solid 3px;
+}
+.link{
+    font-size: 10px;
+    text-align: center;
+
+
+}
+.job{
+    color: black;
+}
+.involve{
+    background-image: url(./images/involves.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width:auto;
+    
+
+
+}
+.partner{
+    background-image: url(./images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width:auto;
+}
+.involve{
+    background-image: url(./images/involves.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width:auto;
+    
+
+
+}
+.involved{
+    background-image: url(./images/blogshow.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width:auto;
+    
+
+
+}
+a{
+    text-decoration: none;
+    color:rgb(230,43,30);
+}
+a:hover{
+    text-decoration: none;
+    color:rgb(230,43,30);
+}
+.carousel-item img{
+    width: 100%;
+    height:100%;
+    filter: brightness(50%);
+    
+}
+
+.thin-red-line{
+    height:3px;
+    width:100%;
+    background-color: rgb(230,43,30);
+}
+
+.exec-title{
+    height: 100%;
+    padding:70px;
+}
+.person{
+    height: auto;
+    width: 100%;
+}
+.quotation-mark{
+    height: 10vh;
+    width: 10vh;
+}
+.container{
+    padding-top:0px;
+    margin-top:0px;
+}
+.social{
+    color: white;
+}
+.social:hover{
+    color: rgb(230,43,30);
+}
+.socialp{
+    color: black;
+}
+.socialp:hover{
+    color: rgb(230,43,30);
+}
+/*.carousel-caption {
+    position: absolute;
+    top:-20px;
+    right:200px;
+}*/
+#latest-event{
+    filter: brightness(100%);
+}
+.img-fluid{
+    margin:10px;
+    padding:0px;
+    transition-delay: 20ms;
+}
+.img-fluid:hover{
+    filter: blur(0.4px) drop-shadow(5px 5px 10px #666);
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.fb{
+    border-left: rgb(230,43,30) solid 3px;
+    border-right: rgb(230,43,30) solid 3px;
+}
+@media (min-width:768px) {
+    .nav-item:hover{
+        border: 1px solid white;
+        background-color: black;
+        
+    }
+
+
+
+    
+
+}
+
+
+@media (max-width: 768px) {
+    .navbar-collapse{
+        background-color: rgb(230,43,30);
+        border-radius: 5px ;
+    }
+    li{
+        display: flex;
+    }
+    a{
+        align-content: center;
+    }
+    .img-fluid{
+        height: 50vh;
+        width:auto;
+        text-align: center;
+
+    }
+    .quotation-mark{
+        display: none;
+    }
+    .fb{
+        border-top: rgb(230,43,30) solid 3px;
+        border-bottom: rgb(230,43,30) solid 3px;
+        border-left: black solid 3px;
+        border-right:black solid 3px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .left{
+        border-left: white solid 3px;
+        border-top: rgb(230,43,30) solid 3px;
+
+    }
+    .insta{
+        padding-bottom: 10px;
+    }
+    .email{
+        padding-top: 10px;
+    }
+}
