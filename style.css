@@ -161,9 +161,9 @@ a:hover{
     height: auto;
     width: 100%;
 }
-html, body{
+/*html, body{
     overflow-x: hidden;
-}
+}*/
 .quotation-mark{
     height: 10vh;
     width: 10vh;
