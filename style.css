@@ -285,6 +285,9 @@ footer {
     .quotation-mark {
         display: none;
     }
+    .qmb{
+        display: none;
+    }
 
     .fb {
         border-top: rgb(230, 43, 30) solid 3px;
