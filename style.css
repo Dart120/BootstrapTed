@@ -1,56 +1,66 @@
-.bg-black{
+.bg-black {
     background-color: black;
 }
-.logo{
+
+.logo {
     display: block;
-    max-width:120px;
-    max-height:35px;
+    max-width: 120px;
+    max-height: 35px;
     width: auto;
     height: auto;
 }
-.white{
+
+.white {
     color: white;
 }
-.nav-item{
-    
+
+.nav-item {
+
     margin-left: 40px;
 }
-.title{
-    height:33%;
+
+.title {
+    height: 33%;
 }
-.blog:hover{
-    color:white;
+
+.blog:hover {
+    color: white;
     background-color: black;
-}
-body{
-    background-color: white;
-    font-weight: 900 ;
 }
 
 body {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    font-weight: 300;
-}
-.container{
-    margin-top:170px;
-}
-.content{
-    margin-top:56.02px;
+    background-color: white;
+    font-weight: 900;
 }
 
-.nav-item{
-    background-color: rgb(230,43,30);
-    border-radius: 5px ;
-    width:90px;
-  
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    margin-top: 170px;
+}
+
+.content {
+    margin-top: 56.02px;
+}
+
+.nav-item {
+    background-color: rgb(230, 43, 30);
+    border-radius: 5px;
+    width: 90px;
+
     border-color: white;
     border-width: 1000px;
 
-    
+
 }
-.photocard{
+
+.photocard {
     display: inline-block;
 }
+
 /*.carousel-caption {
     position: absolute;
     top: 0;
@@ -65,200 +75,237 @@ body {
     -webkit-align-items: center;
     align-items: center;
 }*/
-.jumbotron{
+.jumbotron {
     border-radius: 0px;
     margin: 50px;
 }
-.personal-icon{
-    padding: 30px ;
+
+.personal-icon {
+    padding: 30px;
 }
-.about{
+
+.about {
     margin-top: 150px;
 }
-.quote{
+
+.quote {
     text-align: center;
 }
-.tagline{
-    height:650px;
-    weight:100%;
-}
-.left{
 
-    border-left: rgb(230,43,30) solid 3px;
+.tagline {
+    height: 650px;
+    weight: 100%;
 }
-.link{
+
+.left {
+
+    border-left: rgb(230, 43, 30) solid 3px;
+}
+
+.link {
     font-size: 10px;
     text-align: center;
 
 
 }
-.job{
+
+.job {
     color: black;
 }
-.involve{
+
+.involve {
     background-image: url(./images/involves.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
-    width:auto;
-    
+    width: auto;
+
 
 
 }
-.partner{
+
+.partner {
     background-image: url(./images/cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
-    width:auto;
+    width: auto;
 }
-.involve{
+
+.involve {
     background-image: url(./images/involves.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
-    width:auto;
-    
+    width: auto;
+
 
 
 }
-.involved{
+
+.involved {
     background-image: url(./images/blogshow.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
-    width:auto;
-    
+    width: auto;
 
 
+
 }
-a{
+
+a {
     text-decoration: none;
-    color:rgb(230,43,30);
+    color: rgb(230, 43, 30);
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
-    color:rgb(230,43,30);
+    color: rgb(230, 43, 30);
 }
-.carousel-item img{
+
+.carousel-item img {
     width: 100%;
-    height:100%;
-    filter: brightness(50%);
-    
-}
-
-.thin-red-line{
-    height:3px;
-    width:100%;
-    background-color: rgb(230,43,30);
-}
-
-.exec-title{
     height: 100%;
-    padding:70px;
+    filter: brightness(50%);
+
 }
-.person{
+
+.thin-red-line {
+    height: 3px;
+    width: 100%;
+    background-color: rgb(230, 43, 30);
+}
+
+.exec-title {
+    height: 100%;
+    padding: 70px;
+}
+
+.person {
     height: auto;
     width: 100%;
 }
-html, body{
+
+html,
+body {
     overflow-x: hidden;
 }
-.quotation-mark{
+
+.quotation-mark {
     height: 10vh;
     width: 10vh;
 }
-.container{
-    padding-top:0px;
-    margin-top:0px;
+
+.container {
+    padding-top: 0px;
+    margin-top: 0px;
 }
-.social{
+
+.social {
     color: white;
 }
-.social:hover{
-    color: rgb(230,43,30);
+
+.social:hover {
+    color: rgb(230, 43, 30);
 }
-.socialp{
+
+.socialp {
     color: black;
 }
-.socialp:hover{
-    color: rgb(230,43,30);
+
+.socialp:hover {
+    color: rgb(230, 43, 30);
 }
+
 /*.carousel-caption {
     position: absolute;
     top:-20px;
     right:200px;
 }*/
-#latest-event{
+#latest-event {
     filter: brightness(100%);
 }
-.img-fluid{
-    margin:10px;
-    padding:0px;
+
+.img-fluid {
+    margin: 10px;
+    padding: 0px;
     transition-delay: 20ms;
 }
-.img-fluid:hover{
+
+.img-fluid:hover {
     filter: blur(0.4px) drop-shadow(5px 5px 10px #666);
 }
-footer{
+
+footer {
     background-color: black;
     color: white;
 }
-.fb{
-    border-left: rgb(230,43,30) solid 3px;
-    border-right: rgb(230,43,30) solid 3px;
+
+.fb {
+    border-left: rgb(230, 43, 30) solid 3px;
+    border-right: rgb(230, 43, 30) solid 3px;
 }
+
 @media (min-width:768px) {
-    .nav-item:hover{
+    .nav-item:hover {
         border: 1px solid white;
         background-color: black;
-        
+
     }
 
 
 
-    
+
 
 }
 
 
 @media (max-width: 768px) {
-    .navbar-collapse{
-        background-color: rgb(230,43,30);
-        border-radius: 5px ;
+    .navbar-collapse {
+        background-color: rgb(230, 43, 30);
+        border-radius: 5px;
     }
-    li{
+
+    li {
         display: flex;
     }
-    a{
+
+    a {
         align-content: center;
     }
-    .img-fluid{
+
+    .img-fluid {
         height: 50vh;
-        width:auto;
+        width: auto;
         text-align: center;
 
     }
-    .quotation-mark{
+
+    .quotation-mark {
         display: none;
     }
-    .fb{
-        border-top: rgb(230,43,30) solid 3px;
-        border-bottom: rgb(230,43,30) solid 3px;
+
+    .fb {
+        border-top: rgb(230, 43, 30) solid 3px;
+        border-bottom: rgb(230, 43, 30) solid 3px;
         border-left: black solid 3px;
-        border-right:black solid 3px;
+        border-right: black solid 3px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .left{
+
+    .left {
         border-left: white solid 3px;
-        border-top: rgb(230,43,30) solid 3px;
+        border-top: rgb(230, 43, 30) solid 3px;
 
     }
-    .insta{
+
+    .insta {
         padding-bottom: 10px;
     }
-    .email{
+
+    .email {
         padding-top: 10px;
     }
 }
